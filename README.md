@@ -2,6 +2,8 @@
 
 # agenda-rest
 
+*Note:* this branch assumes Node v7.6.0 or higher to support `async/await`, use master for previous versions.
+
 Scheduling as a Service, based on [Agenda](https://github.com/rschmukler/agenda)
 
 Assuming all job types could be thought of as REST endpoints, scheduling could be offered as a service. `agenda-rest` does just that, introduce a url, name it, agenda-rest will call it on the times that you specify.
